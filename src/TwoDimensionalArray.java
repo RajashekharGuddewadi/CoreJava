@@ -49,7 +49,7 @@ public class TwoDimensionalArray {
         int[][] b = new int[3][];
         System.out.println(b);
         System.out.println(b[0]); // if you perform any operation on null then we will get null pointer exception
-        System.out.println(b[0][0]);
+        //System.out.println(b[0][0]);
 
         //once we create arrays every arrays elements by default initializer with  default values if we are not satisfied with default values then we can override with over customized values
         int[] c = new int[6];
@@ -71,6 +71,9 @@ public class TwoDimensionalArray {
 
         //ThreeDimensional Array
         int[][][] f = {{{10,20,30},{40,50,60}} ,{{70,80},{90,100,110}}};
+        System.out.println(f[0][1][1]);
+
+
 
 
 
