@@ -21,5 +21,6 @@ public class ArrayLengthDiffrence {
         System.out.println(m.length); //6
         System.out.println(m[0].length); //3
         System.out.println(m[1].length); //3
+
     }
 }
